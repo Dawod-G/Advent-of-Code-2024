@@ -3,7 +3,7 @@ print("Day 1 - Exercise 1")
 left_values = []
 right_values = []
 
-with open('input-ex1.txt', 'r') as input:
+with open('input.txt', 'r') as input:
     for line in input:
         left, right = map(int, line.split())
         left_values.append(left)
