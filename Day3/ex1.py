@@ -11,7 +11,7 @@ isGood = re.findall(pattern, memory)
 result = 0
 
 for match in isGood:
-    num1, num2 = map(int, match)
-    result = result + num1 * num2
+    X, Y = map(int, match)
+    result = result + X * Y
 
 print(result)
