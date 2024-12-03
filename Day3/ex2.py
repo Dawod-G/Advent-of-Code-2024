@@ -21,4 +21,4 @@ for match in isGood:
         X, Y = map(int, match[1:])
         result = result + X * Y
 
-print(result)
+print(result )
